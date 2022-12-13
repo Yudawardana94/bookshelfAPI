@@ -1,0 +1,20 @@
+{
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es2021": true,
+    "node": true
+  },
+  "extends": ["airbnb-base"],
+  "parserOptions": {
+    "ecmaVersion": "latest"
+  },
+  "rules": {
+    "no-console": "off",
+    "no-tabs": ["error", { "allowIndentationTabs": true }],
+    "no-confusing-arrow": "off",
+    "arrow-body-style": "off",
+    "indent": "off",
+    "operator-linebreak": "off"
+  }
+}
